@@ -35,11 +35,11 @@ Official isobot/iso6.9 server for support:
 
 Partners on development: 
 
-> Git: `thatOneArchUser`
-> Discord: `thatOneArchUser#5794`
->
-> Git: `notsniped`
-> Discord: `notsniped#0002`
+- Git: thatOneArchUser
+- Discord: thatOneArchUser#5794
+
+- Git: notsniped
+- Discord: notsniped#0002
 
 
 # Details info about iso6.9 / isobot
