@@ -17,13 +17,13 @@ You may change the owner's info.
 - Use `]chelp` to get command list.
 
 > Moderation commands:
-`[kick, ban, unban, mute, unmute, purge]`
+[kick, ban, unban, mute, unmute, purge]
 
 > Informative commands:
-`[ping, serverinfo, userinfo, serverlist, morebots]`
+[ping, serverinfo, userinfo, serverlist, morebots]
 
 > Misc commands:
-`[snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say]`
+[snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say]
 
 # Details info about iso6.9 / isobot
 For more details please read the original README.md by notsniped.
