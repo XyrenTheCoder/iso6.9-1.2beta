@@ -26,6 +26,19 @@ Also put your discord id in line 16. To get your id, run `?userinfo` or `auserin
 
 > [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say]
 
+# Contacts
+> Discord: αrchιshα#5518 (DM open)
+
+Official isobot/iso6.9 server for support:
+https://discord.gg/zTqZqQCcAg
+
+Partners on development: 
+> Git: thatOneArchUser
+> Discord: thatOneArchUser#5794,
+> Git: notsniped
+> Discord: notsniped#0002
+
+
 # Details info about iso6.9 / isobot
 For more details please read the original README.md by notsniped.
 
@@ -33,4 +46,5 @@ https://github.com/notsniped/isobot-discord-bot-python
 
 ***More features will be added***
 
+Hashtags:
 #isobot #iso6.9 #discord.py
