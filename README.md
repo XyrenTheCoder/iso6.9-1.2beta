@@ -1,7 +1,9 @@
 # iso6.9-08122021b-1.2beta
-Isobot is originally made by notsniped. This is a remix of iso.bot by archisha.
+Isobot is originally made by notsniped#0002. This is a remix of iso.bot by αrchιshα#5518.
 
-isobot6.9 is a Discord bot written in Python and is used to make your Discord experience better! It's prefix is `]`. 
+isobot6.9 is a Discord bot written in Python and is used to make your Discord experience better! 
+
+Its prefix is `]`. 
 
 To run it, go to line 15 and put the bot token inside 
 
@@ -12,16 +14,16 @@ Also put your discord id in line 16. To get your id, run `?userinfo` or `auserin
 You may change the owner's info.
 
 # Features
-- Use ]chelp to get command list.
+- Use `]chelp` to get command list.
 
 > Moderation commands:
-[kick, ban, unban, mute, unmute, purge]
+`[kick, ban, unban, mute, unmute, purge]`
 
 > Informative commands:
-[ping, serverinfo, userinfo, serverlist, morebots]
+`[ping, serverinfo, userinfo, serverlist, morebots]`
 
 > Misc commands:
-[snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say]
+`[snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say]`
 
 # Details info about iso6.9 / isobot
 For more details please read the original README.md by notsniped.
