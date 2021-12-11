@@ -36,9 +36,11 @@ https://discord.gg/zTqZqQCcAg
 
 Partners on development: 
 > Git: thatOneArchUser
+> 
 > Discord: thatOneArchUser#5794
 
 > Git: notsniped
+> 
 > Discord: notsniped#0002
 
 
@@ -49,5 +51,5 @@ https://github.com/notsniped/isobot-discord-bot-python
 
 ***More features will be added***
 
-- Hashtags:
+Hashtags:
 #isobot #iso6.9 #discord.py
