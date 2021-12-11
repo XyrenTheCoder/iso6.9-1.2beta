@@ -26,5 +26,6 @@ Also put your discord id in line 16. To get your id, run `?userinfo` or `auserin
 # Details info about iso6.9 / isobot
 For more details please read the original README.md by notsniped.
 https://github.com/notsniped/isobot-discord-bot-python
-
 ***More features will be added***
+
+#isobot #iso6.9 #discord.py
