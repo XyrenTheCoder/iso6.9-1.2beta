@@ -28,7 +28,7 @@ Also put your discord id in line 16. To get your id, run `?userinfo` or `auserin
 
 # Contacts
 Contact me:
-- Discord: `αrchιshα#5518` (DM open)
+- Discord: αrchιshα#5518 (DM open)
 
 Official isobot/iso6.9 server for support:
 - iso support: https://discord.gg/zTqZqQCcAg
