@@ -11,7 +11,7 @@ To run it, go to line 15 and put the bot token inside
 
 Also put your discord id in line 16. To get your id, run `?userinfo` or `auserinfo` (slash commands also works) in any servers with Dyno or Arcane and copy your bot's client ID.
 
-# Features
+# Commands
 - Use `]chelp` to get command list.
 
 - Moderation commands:
