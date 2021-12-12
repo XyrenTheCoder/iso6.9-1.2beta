@@ -39,7 +39,12 @@ async def on_message(message):
 # when ready
 @bot.event
 async def on_ready():
-    print(f'> {bot.user} HAS CONNECTED TO DISCORD.\n> OWNER: {owner}\n> OWNER\'S ID: {oid}')
+    print(f'> {bot.user} HAS CONNECTED TO DISCORD.\n> OWNER:\n')
+    for i in owner:
+        print(f"{i}\n")
+    print("OWNER\'S ID:\n")
+    for s in oid:
+        print(f"{s}\n")
 
 # very smol error handler for specific cmds
 @bot.event
@@ -183,6 +188,7 @@ async def null_1(ctx):
     await ctx.send(nullresp)
 
 @bot.command()
+@commands.has_permissions(kick_members=True)
 async def kick(ctx, member: discord.Member, *, reason=None):
     await member.kick(reason=reason)
     await ctx.send(f'User {member} has kicked successfully.')
