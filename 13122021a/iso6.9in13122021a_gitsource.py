@@ -235,23 +235,6 @@ async def unmute(ctx, member: discord.Member):
    embed = discord.Embed(title="unmute", description=f" unmuted-{member.mention}",colour=discord.Colour.light_gray())
    await ctx.send(embed=embed)
 
-# quote var
-quote1 = "i use arch btw."
-author1 = "thatOneArchUser#5794"
-quote2 = "we all playing systemd."
-author2 = "notsniped#0002"
-quote3 = "isobot is evolving, but backwards."
-author3 = "αrchιshα#5518"
-
-@bot.command(name="quote")
-async def quote_1(ctx):
-    quoted = [
-            f"> \"{quote1}\" - {author1}",
-            f"> \"{quote2}\" - {author2}",
-            f"> \"{quote3}\" - {author3}"
-    ]
-    quoteresp = random.choice(quoted)
-    await ctx.send(quoteresp)
 
 @bot.command()
 @commands.has_permissions(ban_members = True)
