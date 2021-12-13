@@ -5,7 +5,7 @@ isobot6.9 is a Discord bot written in Python and is used to make your Discord ex
 
 Its prefix is `]`. 
 
-# Insert token and id before running to code 
+# Insert token and id before running the code 
 To run it, go to line 15 and put the bot token inside 
 
 > token = "token_line_15"
