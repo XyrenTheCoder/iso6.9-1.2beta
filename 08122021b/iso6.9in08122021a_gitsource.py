@@ -236,14 +236,6 @@ async def unban(ctx, id: int):
     user = await bot.fetch_user(id)
     await ctx.guild.unban(user)
 
-# version var
-version = "1.2 beta"
-
-@bot.command(name="update")
-async def update_1(ctx):
-    udcheck = f"No latest version or updates.\nNewest version of iso6.9: {version}"
-    await ctx.send(udcheck)
-
 # snipe
 snipe_message_author = {}
 snipe_message_content = {}
