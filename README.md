@@ -30,13 +30,13 @@ To get your id, run `?userinfo` or `auserinfo` (slash commands also works) in an
 - Use `]help` to get command list.
 
 - Moderation commands:
-> [kick, ban, unban, mute, unmute, purge, warn]
+> [kick, ban, unban, mute, unmute, purge, warn], and more
 
 - Informative commands:
-> [ping, serverinfo, userinfo, serverlist, morebots]
+> [ping, serverinfo, userinfo, serverlist, morebots], and more
 
 - Misc commands:
-> [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say, sus, notify]
+> [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say, sus, notify], and more
 
 # Features
 - Successfully transferred some of iso.bot's original commands
