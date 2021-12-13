@@ -44,7 +44,7 @@ To get your id, run `?userinfo` or `auserinfo` (slash commands also works) in an
 
 > [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say, sus, notify]
 
-#Features
+# Features
 - Successfully transferred some of isobot's original commands
 - Used different methods instead of copying codes
 - Added different commands and responses into isobot's original codes
