@@ -14,40 +14,38 @@ Also put your discord id in line 16.
 
 To get your id, run `?userinfo` or `auserinfo` (slash commands also works) in any servers with Dyno or Arcane and copy your bot's client ID.
 
-# Commands (for 08122021b **only**)
+# Commands (for 08122021b and below versions only)
 - Use `]chelp` to get command list.
 
 - Moderation commands:
-
 > [kick, ban, unban, mute, unmute, purge]
 
 - Informative commands:
-
 > [ping, serverinfo, userinfo, serverlist, morebots]
 
 - Misc commands:
-
 > [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say]
 
-# Commands (for 13122021a and **every next updates**)
+# Commands (for 13122021a and every next updates)
 - Use `]help` to get command list.
 
 - Moderation commands:
-
 > [kick, ban, unban, mute, unmute, purge, warn]
 
 - Informative commands:
-
 > [ping, serverinfo, userinfo, serverlist, morebots]
 
 - Misc commands:
-
 > [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say, sus, notify]
 
 # Features
-- Successfully transferred some of isobot's original commands
+- Successfully transferred some of iso.bot's original commands
+
 - Used different methods instead of copying codes
-- Added different commands and responses into isobot's original codes
+
+- Added different commands and responses into iso.bot's original codes
+
+- Some commands such as `]notify` was actually been terminated in iso.bot. However, it was rewritten to service here!
 
 ***ALL CODES ARE AUTHORIZED BY ISOBOT'S OWNERS (as we are partners?)***
 
@@ -55,7 +53,7 @@ To get your id, run `?userinfo` or `auserinfo` (slash commands also works) in an
 Contact me:
 - Discord: αrchιshα#5518 (DM open)
 
-Official isobot/iso6.9 server for support:
+Official iso.bot/iso6.9 server for support:
 - Iso Support: https://discord.gg/zTqZqQCcAg
 
 Partners on development: 
@@ -72,7 +70,7 @@ For more details please read the original README.md by notsniped.
 
 https://github.com/notsniped/isobot-discord-bot-python
 
-***More features will be added***
+***MORE FEATURES WILL BE ADDED, LOOKING FORWARD TO IT!***
 
 *Hashtags:*
 
