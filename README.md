@@ -1,7 +1,7 @@
 # iso6.9-1.2beta
-Isobot is originally made by notsniped#0002. This is a remix of iso.bot by αrchιshα#5518.
+iso.bot is originally made by notsniped#0002. This is a remix of iso.bot by αrchιshα#5518.
 
-isobot6.9 is a Discord bot written in Python and is used to make your Discord experience better! 
+iso6.9 is a Discord bot written in Python and is used to make your Discord experience better! It is similar to iso.bot as it is a remix.
 
 Its prefix is `]`. 
 
