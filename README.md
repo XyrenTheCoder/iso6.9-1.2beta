@@ -1,4 +1,4 @@
-# iso6.9-08122021b-1.2beta
+# iso6.9-1.2beta
 Isobot is originally made by notsniped#0002. This is a remix of iso.bot by αrchιshα#5518.
 
 isobot6.9 is a Discord bot written in Python and is used to make your Discord experience better! 
@@ -11,7 +11,7 @@ To run it, go to line 15 and put the bot token inside
 
 Also put your discord id in line 16. To get your id, run `?userinfo` or `auserinfo` (slash commands also works) in any servers with Dyno or Arcane and copy your bot's client ID.
 
-# Commands
+# Commands (for 08122021b **only**)
 - Use `]chelp` to get command list.
 
 - Moderation commands:
@@ -25,6 +25,21 @@ Also put your discord id in line 16. To get your id, run `?userinfo` or `auserin
 - Misc commands:
 
 > [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say]
+
+# Commands (for 13122021a and **every next updates**)
+- Use `]help` to get command list.
+
+- Moderation commands:
+
+> [kick, ban, unban, mute, unmute, purge, warn]
+
+- Informative commands:
+
+> [ping, serverinfo, userinfo, serverlist, morebots]
+
+- Misc commands:
+
+> [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say, sus, notify]
 
 # Contacts
 Contact me:
