@@ -53,6 +53,8 @@ To get your id, run `?userinfo` or `auserinfo` (slash commands also works) in an
 Contact me:
 - Discord: αrchιshα#5518 (DM open)
 
+***YOU ARE WELCOME TO DM ME IN DISCORD FOR ANY FURTHER INFORMATION, ALSO I WILL BE GLAD IF ANY ISSUE IS REPORTED, PULL REQUESTS ARE ACCEPTED!***
+
 Official iso.bot/iso6.9 server for support:
 - Iso Support: https://discord.gg/zTqZqQCcAg
 
@@ -63,7 +65,6 @@ Partners on development:
 
 - Git: notsniped
 - Discord: notsniped#0002
-
 
 # Details info about iso6.9 / isobot
 For more details please read the original README.md by notsniped.
