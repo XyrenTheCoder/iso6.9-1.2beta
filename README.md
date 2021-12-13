@@ -5,11 +5,14 @@ isobot6.9 is a Discord bot written in Python and is used to make your Discord ex
 
 Its prefix is `]`. 
 
+# Insert token and id before running to code 
 To run it, go to line 15 and put the bot token inside 
 
 > token = "token_line_15"
 
-Also put your discord id in line 16. To get your id, run `?userinfo` or `auserinfo` (slash commands also works) in any servers with Dyno or Arcane and copy your bot's client ID.
+Also put your discord id in line 16. 
+
+To get your id, run `?userinfo` or `auserinfo` (slash commands also works) in any servers with Dyno or Arcane and copy your bot's client ID.
 
 # Commands (for 08122021b **only**)
 - Use `]chelp` to get command list.
@@ -41,12 +44,19 @@ Also put your discord id in line 16. To get your id, run `?userinfo` or `auserin
 
 > [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say, sus, notify]
 
+#Features
+- Successfully transferred some of isobot's original commands
+- Used different methods instead of copying codes
+- Added different commands and responses into isobot's original codes
+
+***ALL CODES ARE AUTHORIZED BY ISOBOT'S OWNERS (as we are partners?)***
+
 # Contacts
 Contact me:
 - Discord: αrchιshα#5518 (DM open)
 
 Official isobot/iso6.9 server for support:
-- iso support: https://discord.gg/zTqZqQCcAg
+- Iso Support: https://discord.gg/zTqZqQCcAg
 
 Partners on development: 
 
@@ -64,6 +74,6 @@ https://github.com/notsniped/isobot-discord-bot-python
 
 ***More features will be added***
 
-Hashtags:
+*Hashtags:*
 
-#isobot #iso6.9 #discord.py
+*#isobot #iso6.9 #discord.py*
