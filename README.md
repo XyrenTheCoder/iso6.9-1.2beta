@@ -26,7 +26,7 @@ To get your id, run `?userinfo` or `auserinfo` (slash commands also works) in an
 - Misc commands:
 > [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say]
 
-# Commands (for 13122021a and every next updates)
+# Commands (for 13122021a only)
 - Use `]help` to get command list.
 
 - Moderation commands:
@@ -38,6 +38,24 @@ To get your id, run `?userinfo` or `auserinfo` (slash commands also works) in an
 - Misc commands:
 > [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say, sus, notify], and more
 
+# Commands (for 15122021c and every next updates)
+- Use `]help` to get command list.
+
+- Moderation commands:
+> [kick, ban, unban, mute, unmute, purge, warn], and more
+
+- Informative commands:
+> [ping, serverinfo, userinfo, serverlist, morebots], and more
+
+- Misc commands:
+> [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say, sus, notify], and more
+
+- Math commands:
+> [sum, subtract, multiply, divide, power, squareroot] and more
+
+- Advanced Math commands:
+> [quadratic, straightline] and more
+
 # Features
 - Successfully transferred some of iso.bot's original commands
 
@@ -46,6 +64,8 @@ To get your id, run `?userinfo` or `auserinfo` (slash commands also works) in an
 - Added different commands and responses into iso.bot's original codes
 
 - Some commands such as `]notify` was actually been terminated in iso.bot. However, it was rewritten to service here!
+
+- Can do Maths!
 
 ***ALL CODES ARE AUTHORIZED BY ISOBOT'S OWNERS (as we are partners?)***
 
