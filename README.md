@@ -30,22 +30,22 @@ To get your id, run `?userinfo` or `auserinfo` (slash commands also works) in an
 - Use `]help` to get command list.
 
 - Moderation commands:
-> [kick, ban, unban, mute, unmute, purge, warn], and more
+> [kick, ban, unban, mute, unmute, purge, warn] and more
 
 - Informative commands:
-> [ping, serverinfo, userinfo, serverlist, morebots], and more
+> [ping, serverinfo, userinfo, serverlist, morebots] and more
 
 - Misc commands:
-> [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say, sus, notify], and more
+> [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say, sus, notify] and more
 
 # Commands (for 15122021c and every next updates)
 - Use `]help` to get command list.
 
 - Moderation commands:
-> [kick, ban, unban, mute, unmute, purge, warn], and more
+> [kick, ban, unban, mute, unmute, purge, warn] and more
 
 - Informative commands:
-> [ping, serverinfo, userinfo, serverlist, morebots], and more
+> [ping, serverinfo, userinfo, serverlist, morebots] and more
 
 - Misc commands:
 > [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say, sus, notify], and more
