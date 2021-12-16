@@ -77,7 +77,7 @@ async def on_command_error(ctx, error):
                 r = math.ceil(ret) / 24
                 await ctx.reply(f"This command is on cooldown. Please try after {r} days")
             else:
-                await ctx.reply(f'This command is on cooldown. Please try after {math.ceil(ret)} 
+                await ctx.reply(f'This command is on cooldown. Please try after {math.ceil(ret)}')
 #How to use cooldowns:
 #after @bot.command() add @commands.cooldown(1, cooldown, commands.BucketType.user)
 
