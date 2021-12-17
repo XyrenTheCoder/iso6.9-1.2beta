@@ -1,200 +1,99 @@
 # modules
-
 import random
-
 import discord
-
 import asyncio
-
 import datetime
-
 import time
-
 import cmath
-
 import math
-
 import string
 
-
-
-
-
 from datetime import datetime
-
 from random import randint
-
 from discord.ext import commands
-
 from discord.ext.commands import *
-
-
 
 intents = discord.Intents(messages=True, members=True, guilds=True)
 
-
-
 # var
-
 token = "token_line_15"
-
 cid = "client_id_line_16"
-
-
 owner = [
-
         "αrchιshα#5518",
-
         "notsniped#0002",
-
         "thatOneArchUser#5794"
-
 ]
-
 oid = [
-
         "706697300872921088",
-
         "738290097170153472",
-
         "705462972415213588"
-
 ]
-
-
 
 # prefix and status setup
-
 bot = commands.Bot(command_prefix=']', intents=intents)
-
-
-
 client = discord.Client()
 
-
-
 @client.event
-
 async def on_message(message):
-
     if message.author == bot.user:
-
         return
 
-
-
 # when ready
-
 @bot.event
-
 async def on_ready():
-
     print(f'\n> {bot.user} HAS CONNECTED TO DISCORD.\n\n> OWNER:\n')
-
     for i in owner:
-
         print(f"{i}\n")
-
     print("OWNER\'S ID:\n")
-
     for s in oid:
-
         print(f"{s}\n")
-
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=f"everyone in {str(len(bot.guilds))} guilds | ]help"))
-
     print(f'[log] {bot.user} changed its activity.')
 
-
-
 @bot.event
-
 async def on_guild_join(guild):
-
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=f"everyone in {str(len(bot.guilds))} guilds | ]help"))
-
     print(f'[log] {bot.user} changed its activity.')
-
-
 
 @bot.event
-
 async def on_guild_remove(guild):
-
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=f"everyone in {str(len(bot.guilds))} guilds | ]help"))
-
     print(f'[log] {bot.user} changed its activity.')
-
-
 
 # error handler
-
 @bot.event
-
 async def on_command_error(ctx, error):
-
     if isinstance(error, commands.MissingRequiredArgument):
-
         await ctx.send('Missing required argument(s).')
-
         print(f'[log] {ctx.author.name} returned an error: {error}.')
-
     if isinstance(error, commands.MissingPermissions):
-
         await ctx.send("You dont have the permission to do that. :eyes:")
-
         print(f'[log] {ctx.author.name} returned an error: {error}.')
-
     if isinstance(error, BotMissingPermissions):
-
         await ctx.send('I don\'t have the required permissions to use this.')
-
         print(f'[log] {ctx.author.name} returned an error: {error}.')
-
     if isinstance(error, BadArgument):
-
         await ctx.send('Invalid argument')
-
         print(f'[log] {ctx.author.name} returned an error: {error}.')
-
     if isinstance(error, commands.CommandOnCooldown):
-
         if math.ceil(error.retry_after) < 60:
-
             await ctx.reply(f'This command is on cooldown. Please try after {math.ceil(error.retry_after)} seconds')
-
             print(f'[log] {ctx.author.name} returned an error: {error}.')
-
         elif math.ceil(error.retry_after) < 3600:
-
             ret = math.ceil(error.retry_after) / 60
-
             await ctx.reply(f'This command is on cooldown. Please try after {math.ceil(ret)} minutes')
-
             print(f'[log] {ctx.author.name} returned an error: {error}.')
-
         elif math.ceil(error.retry_after) >= 3600:
-
             ret = math.ceil(error.retry_after) / 3600
-
             if ret >= 24:
-
                 r = math.ceil(ret) / 24
-
                 await ctx.reply(f"This command is on cooldown. Please try after {r} days")
-
                 print(f'[log] {ctx.author.name} returned an error: {error}.')
-
             else:
-
                 await ctx.reply(f'This command is on cooldown. Please try after {math.ceil(ret)}')
-
                 print(f'[log] {ctx.author.name} returned an error: {error}.')
-
             # How to use cooldowns:
-
             # after @bot.command() add @commands.cooldown(1, cooldown, commands.BucketType.user)
-
 # end of error handler
 
 
