@@ -31,6 +31,7 @@ oid = [
 
 # prefix and status setup
 bot = commands.Bot(command_prefix=']', intents=intents)
+
 client = discord.Client()
 
 @client.event
