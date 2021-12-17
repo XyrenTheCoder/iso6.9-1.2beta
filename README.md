@@ -5,12 +5,14 @@ iso6.9 is a Discord bot written in Python and is used to make your Discord exper
 
 Its prefix is `]`. 
 
-# Insert token and id before running the code 
-To run it, go to line 15 and put the bot token inside 
+# Insert token and id before running the code. 
+To run it, put the bot token inside:
 
-> token = "token_line_15"
+> token = "token"
 
-Also put your discord id in line 16. 
+Also put your discord id in:
+
+> cid = "client_id"
 
 To get your id, run `?userinfo` or `auserinfo` (slash commands also works) in any servers with Dyno or Arcane and copy your bot's client ID.
 
