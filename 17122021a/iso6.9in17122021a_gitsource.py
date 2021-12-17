@@ -125,199 +125,102 @@ async def testresp(ctx):
     print(f'[log] {ctx.author.name} requested ]test.')
 
 @bot.command()
-
 async def roll(ctx, number_of_dice: int, number_of_sides: int):
-
     dice = [
-
         str(random.choice(range(1, number_of_sides + 1)))
-
         for _ in range(number_of_dice)
-
     ]
-
     await ctx.send(', '.join(dice))
-
     print(f'[log] {ctx.author.name} requested ]roll.')
 
-
-
 @bot.command(aliases=['8ball'])
-
 async def _8ball(ctx, *, question):
-
     responses = [
-
             "no?????",
-
             "When you grow a braincell, yes",
-
             "You stupid, of course not",
-
             "lol no",
-
             "Absolutely!",
-
             "Bet on it",
-
             "As I see it, yes.",
-
             "Most likely.",
-
             "Yes.",
-
             "Idfk",
-
             "Try again",
-
             "Not today.",
-
             "I\'m not very sure, but I think the answer is no.",
-
             "I\'m not very sure, but I think the answer is yes!",
-
             "brain.exe stopped responding.",
-
             "Ask again later.",
-
             "Better not tell you now.",
-
             "Cannot predict now.",
-
             "Concentrate and ask again.",
-
             "Don't count on it.",
-
             "My reply is no.",
-
             "My sources say no.",
-
             "Outlook not so good.",
-
             "Its a secret :>"
-
     ]
-
     ballEmbed = discord.Embed(title=f':8ball: {question}', description=f'{random.choice(responses)}')
-
     await ctx.send(embed=ballEmbed)
-
     print(f'[log] {ctx.author.name} requested ]8ball.')
 
-
-
 @bot.command()
-
 async def ping(ctx):
-
     await ctx.send(f'Client Latency: {round(bot.latency * 1000)}ms')
-
     print(f'[log] {ctx.author.name} requested ]ping.')
 
-
-
 # fstab var
-
 fstaburl1 = "https://cdn.discordapp.com/attachments/878297190576062515/879845618636423259/IMG_20210825_005111.jpg"
-
 fstaburl2 = "https://media.discordapp.net/attachments/876826249820004385/884040441195003954/Screenshot_158.png"
-
 fstaburl3 = "https://media.discordapp.net/attachments/915898952182796298/916626889165115422/Screenshot_2017-10-10-01-22-57_com.speedsoftware.explorer_1507591405249.jpg"
-
 fstaburl4 = "https://media.discordapp.net/attachments/915898952182796298/916626889412599858/644b5b9e083e806173eabcde0b6b5f0c_720w.png"
 
-
-
 @bot.command()
-
 async def fstab(ctx):
-
     fstabimg = [
-
             fstaburl1,
-
             fstaburl2,
-
             fstaburl3,
-
             fstaburl4
-
     ]
-
     fstabresp = random.choice(fstabimg)
-
     await ctx.send(fstabresp)
-
     print(f'[log] {ctx.author.name} requested ]fstab.')
 
-
-
 # slist var
-
 archlink = "<https://discord.gg/aw4AcZys6p>"
-
 smlink = "<https://discord.gg/tJqDMucEYG>"
-
 isolink = "<https://discord.gg/zTqZqQCcAg>"
 
-
-
 @bot.command(aliases=["serverlist", "slist"])
-
 async def embed_2(ctx):
-
     embed=discord.Embed(title="**server list**", description="~~(101% not advertising)~~", color=0xFF5733)
-
     embed.add_field(name=f"1. Arch Island (aka Hecker\'s Hub\):", value=f"{archlink}", inline=False)
-
     embed.add_field(name=f"2. Scope Media (aka SM\):", value=f"{smlink}", inline=False)
-
     embed.add_field(name=f"3. iso.bot (aka isobot\'s supporting server\):", value=f"{isolink}", inline=False)
-
     await ctx.send(embed=embed)
-
     print(f'[log] {ctx.author.name} requested ]serverlist.')
 
-
-
 # bots var
-
 archbot = "https://discord.com/api/oauth2/authorize?client_id=859869941535997972&permissions=8&scope=bot"
-
 isobot = "https://discord.com/api/oauth2/authorize?client_id=896437848176230411&permissions=8&scope=bot"
-
 isobot2 = "https://discord.com/oauth2/authorize?client_id=915488087554002956&permissions=8&scope=bot"
 
-
-
 @bot.command(aliases=["morebots", "bots"])
-
 async def embed_3(ctx):
-
     embed=discord.Embed(title="**Discover more bots!**", description="~~(101% not advertising)~~", color=0xFF5733)
-
     embed.add_field(name=f"1. Arch bot#6142 (aka Archbot\):", value=f"{archbot}", inline=False)
-
     embed.add_field(name=f"2. isobot#6851 (aka Official isobot\):", value=f"{isobot}", inline=False)
-
     embed.add_field(name=f"3. iso6.9#4895 (aka isobot v6.9\):", value=f"{isobot2}", inline=False)
-
     await ctx.send(embed=embed)
-
     print(f'[log] {ctx.author.name} requested ]morebots.')
 
-
-
 @bot.command()
-
 async def say(ctx, *, text):
-
     await ctx.message.delete()
-
     await ctx.send(f'{text}')
-
     print(f'[log] {ctx.author.name} requested ]say, content: {ctx.message_content}.')
-
 @bot.command(aliases=["null"])
 async def null_1(ctx):
     zero = [
