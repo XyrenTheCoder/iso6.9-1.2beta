@@ -96,63 +96,33 @@ async def on_command_error(ctx, error):
             # after @bot.command() add @commands.cooldown(1, cooldown, commands.BucketType.user)
 # end of error handler
 
-
-
 # help cmd
-
 bot.remove_command('help')
 
-
-
 @bot.command(aliases=['help'])
-
 async def embed(ctx):
-
     embed=discord.Embed(title="**help command list of iso6.9**", description="current version: 16122021a\ncurrent prefix: `]`", 
-
     color=discord.Color.blue())
-
     embed.add_field(name='moderation:', value="kick, ban, unban, purge, mute, unmute, warn, lock, unlock", inline=False)
-
     embed.add_field(name='informative:', value="testcmd, ping, serverlist, otherbots, serverinfo, userinfo", inline=False)
-
     embed.add_field(name='misc:', value="snipe (channel), edit_snipe (global), 8ball, fstab, roll, say, null, sus, notify, stroke, randnum", inline=False)
-
     embed.add_field(name='mathematics:', value="sum, subtract, multiply, divide, power, squareroot", inline=False)
-
     embed.add_field(name='advanced maths:', value="quadratic, straightline", inline=False)
-
     embed.add_field(name='disabled:', value="<no commands>", inline=False)
-
     embed.set_footer(text="> type ]help to get this list.\n(Information requested by: {})".format(ctx.author.name))
-
     await ctx.send(embed=embed)
-
     print(f'[log] {ctx.author.name} requested ]help.')
 
-
-
 # cmds
-
 @bot.command(aliases=['test'])
-
 async def testresp(ctx):
-
     ranresponse = [
-
         'hi! i\'m isobot but from different creator!',
-
         'e!'
-
     ]
-
     response = random.choice(ranresponse)
-
     await ctx.send(response)
-
     print(f'[log] {ctx.author.name} requested ]test.')
-
-
 
 @bot.command()
 
