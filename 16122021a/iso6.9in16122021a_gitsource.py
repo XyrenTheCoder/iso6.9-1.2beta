@@ -66,21 +66,21 @@ async def on_command_error(ctx, error):
         await ctx.send('Missing required argument(s).')
     if isinstance(error, commands.MissingPermissions):
         await ctx.send("You dont have the permission to do that. :eyes:")
- ​   if​ ​isinstance​(​error​, ​commands​.​CommandOnCooldown​): 
- ​        ​if​ ​math​.​ceil​(​error​.​retry_after​) ​<​ ​60​: 
- ​            ​await​ ​ctx​.​reply​(​f'This command is on cooldown. Please try after ​{​math​.​ceil​(​error​.​retry_after​)​}​ seconds'​) 
- ​        ​elif​ ​math​.​ceil​(​error​.​retry_after​) ​<​ ​3600​: 
- ​            ​ret​ ​=​ ​math​.​ceil​(​error​.​retry_after​) ​/​ ​60 
- ​            ​await​ ​ctx​.​reply​(​f'This command is on cooldown. Please try after ​{​math​.​ceil​(​ret​)​}​ minutes'​) 
- ​        ​elif​ ​math​.​ceil​(​error​.​retry_after​) ​>=​ ​3600​: 
- ​            ​ret​ ​=​ ​math​.​ceil​(​error​.​retry_after​) ​/​ ​3600 
- ​            ​if​ ​ret​ ​>=​ ​24​: 
- ​                ​r​ ​=​ ​math​.​ceil​(​ret​) ​/​ ​24 
- ​                ​await​ ​ctx​.​reply​(​f"This command is on cooldown. Please try after ​{​r​}​ days"​) 
- ​            ​else​: 
- ​                ​await​ ​ctx​.​reply​(​f'This command is on cooldown. Please try after ​{​math​.​ceil​(​ret​)​}​'​) 
- ​# How to use cooldowns: 
- ​# after @bot.command() add @commands.cooldown(1, cooldown, commands.BucketType.user)
+    if isinstance(error, commands.CommandOnCooldown):
+        if math.ceil(error.retry_after) < 60:
+            await ctx.reply(f'This command is on cooldown. Please try after {math.ceil(error.retry_after)} seconds')
+        elif math.ceil(error.retry_after) < 3600:
+            ret = math.ceil(error.retry_after) / 60
+            await ctx.reply(f'This command is on cooldown. Please try after {math.ceil(ret)} minutes')
+        elif math.ceil(error.retry_after) >= 3600:
+            ret = math.ceil(error.retry_after) / 3600
+            if ret >= 24:
+                r = math.ceil(ret) / 24
+                await ctx.reply(f"This command is on cooldown. Please try after {r} days")
+            else:
+                await ctx.reply(f'This command is on cooldown. Please try after {math.ceil(ret)}')
+# How to use cooldowns:
+# after @bot.command() add @commands.cooldown(1, cooldown, commands.BucketType.user)
 
 # help cmd
 bot.remove_command('help')
