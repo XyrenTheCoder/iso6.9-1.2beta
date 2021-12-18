@@ -26,7 +26,7 @@ owner = [
 oid = [
         "706697300872921088",
         "738290097170153472",
-        "705462972415213588"
+        "705462972415213588" #doesn't have to be a string
 ]
 
 # prefix and status setup
@@ -537,6 +537,14 @@ async def randnum(ctx, range1: int, range2: int):
     num = random.randint(range1, range2)
     await ctx.send(f'{num} is being picked.')
     print(f'[log] {ctx.author.name} requested ]randnum.')
+
+@bot.command
+async def shutdown(ctx):
+    if ctx.message.author.id == 706697300872921088:
+        await ctx.reply("Shutting down...", mention_author=False)
+        raise SystemExit("Bot shutdown triggered"/
+    else:
+        await ctx.reply("no")
 
 # start
 bot.run(token)
