@@ -542,7 +542,7 @@ async def randnum(ctx, range1: int, range2: int):
 async def shutdown(ctx):
     if ctx.message.author.id == 706697300872921088:
         await ctx.reply("Shutting down...", mention_author=False)
-        raise SystemExit("Bot shutdown triggered"/
+        raise SystemExit("Bot shutdown triggered")
     else:
         await ctx.reply("no")
 
