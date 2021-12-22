@@ -12,8 +12,8 @@ from discord.ext import tasks
 intents = discord.Intents(messages=True, members=True, guilds=True)
 
 # var
-token = "token_line_15"
-cid = "client_id_line_16"
+token = "token"
+cid = "client_id"
 owner = [
         "αrchιshα#5518",
         "notsniped#0002",
