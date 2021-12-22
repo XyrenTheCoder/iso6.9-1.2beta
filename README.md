@@ -75,7 +75,7 @@ Contact me:
 Official iso.bot/iso6.9 server for support:
 - Iso Support: https://discord.gg/zTqZqQCcAg
 
-Partners (thank you for helping on early developments!): 
+Partners (thank you for helping on early development!): 
 
 - Git: thatOneArchUser
 - Discord: thatOneArchUser#5794
