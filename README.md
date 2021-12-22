@@ -16,47 +16,42 @@ Also put your discord id in:
 
 To get your id, run `?userinfo` or `auserinfo` (slash commands also works) in any servers with Dyno or Arcane and copy your bot's client ID.
 
-# Commands (for 08122021b and below versions only)
+# Commands (for 08122021b and below versions only as this is the base version of iso6.9)
 - Use `]chelp` to get command list.
 
 - Moderation commands:
-> [kick, ban, unban, mute, unmute, purge]
+> [kick, ban, unban, mute, unmute, purge] and more
 
 - Informative commands:
-> [ping, serverinfo, userinfo, serverlist, morebots]
+> [ping, serverinfo, userinfo, serverlist, morebots] and more
 
 - Misc commands:
-> [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say]
+> [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say] and more
 
 # Commands (for 13122021a only)
 - Use `]help` to get command list.
 
-- Moderation commands:
-> [kick, ban, unban, mute, unmute, purge, warn] and more
+- Added more moderation commands
 
-- Informative commands:
-> [ping, serverinfo, userinfo, serverlist, morebots] and more
+- Added more informative commands
 
-- Misc commands:
-> [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say, sus, notify] and more
+- Added more misc commands
 
 # Commands (for 15122021c and every next updates)
 - Use `]help` to get command list.
 
-- Moderation commands:
-> [kick, ban, unban, mute, unmute, purge, warn] and more
-
-- Informative commands:
-> [ping, serverinfo, userinfo, serverlist, morebots] and more
-
-- Misc commands:
-> [snipe(channel), edit_snipe(global), 8ball, null, fstab, roll, say, sus, notify], and more
-
-- Math commands:
+- Added math commands:
 > [sum, subtract, multiply, divide, power, squareroot] and more
 
-- Advanced Math commands:
+- Added advanced Math commands:
 > [quadratic, straightline] and more
+
+# Commands (for 22122021a and every next updates)
+- Use `]help` to get command list, use `]ahelp` to get alias list.
+
+- Added admin commands (use `sudo help` to see detailed command list)
+
+***AND MORE COMMANDS WILL BE ADDED! (NOT ALL COMMANDS ARE LISTED HERE)***
 
 # Features
 - Successfully transferred some of iso.bot's original commands
@@ -80,7 +75,7 @@ Contact me:
 Official iso.bot/iso6.9 server for support:
 - Iso Support: https://discord.gg/zTqZqQCcAg
 
-Partners on development: 
+Partners (thank you for helping on early developments!): 
 
 - Git: thatOneArchUser
 - Discord: thatOneArchUser#5794
