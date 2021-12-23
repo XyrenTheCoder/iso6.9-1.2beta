@@ -634,11 +634,13 @@ async def kill(ctx, user: discord.User, weapon: str):
     print(f'[{current_time} log] {ctx.author} requested ]kill.')
 
 @bot.command()
+@commands.cooldown(1, 5, commands.BucketType.user)
 async def amogus(ctx):
     await ctx.reply("https://c.tenor.com/1iSARWJr-TEAAAAC/among-us-twerk.gif")
     print(f'[{current_time} log] {ctx.author} requested ]amogus.')
 
 @bot.command()
+@commands.cooldown(1, 5, commands.BucketType.user)
 async def guess(ctx, num: int):
     rand = random.randint(1, 9)
     if num == rand:
@@ -649,6 +651,7 @@ async def guess(ctx, num: int):
 
 # duel
 @bot.command()
+@commands.cooldown(1, 5, commands.BucketType.user)
 async def duel(ctx, player2: discord.User):
     if ctx.author == player2:
         await ctx.reply('Imagine fighting against yourself :eyes:', mention_author=False)
@@ -756,6 +759,7 @@ async def duel(ctx, player2: discord.User):
 # end of duel
 
 @bot.command()
+@commands.cooldown(1, 5, commands.BucketType.user)
 async def invites(ctx, *, user : discord.User=None):
     totalInvites = 0
     if user == None:
