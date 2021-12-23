@@ -148,13 +148,24 @@ async def on_message(message):
             print(f'[log] Beware! Non-admin using sudo command detected. Requested by: {message.author.name}')
     
     if message.content.startswith("sudo shutdown") and not message.author.bot:
+        def check(msg):
+            return msg.author == message.author and msg.channel == message.channel and (msg.content)
+        
         if message.author.id in oid:
-            await message.reply("Shutting down...", mention_author=False)
-            print(f'[{message.author.name}@iso6.9 ~] SystemExit triggered in sudo command.')
-            raise SystemExit("Bot shutdown triggered")
+            await message.reply('You sure?')
+            msg = await bot.wait_for("message", check=check)
+            if msg.content == 'y' or msg.content == 'yes':
+                await message.reply('Shutting down the bot...')
+                time.sleep(0.5)
+                print(f'[{message.author.name}@iso6.9 ~] SystemExit triggered in sudo command.')
+                raise SystemExit('Bot shutdown')
+            elif msg.content == 'n' or msg.content == 'no':
+                await message.reply('ok')
+            else:
+                await message.reply(f'What is {msg.content}? You are supposed to reply with yes or no')
         else:
-            await message.reply("no")
-            print(f'[log] {message.author.name} returned an error: User not admin.')
+            await message.reply(f'hOW AboUt nO :eyes:')
+            print(f'[{current_time} log] {message.author.name} returned an error: User not admin.')
 
 # cmds
 @bot.command(aliases=['test'])
