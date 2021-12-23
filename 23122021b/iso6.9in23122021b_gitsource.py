@@ -733,6 +733,9 @@ async def duel(ctx, player2: discord.User):
     await ctx.send(f'{player2} used {round2}, dealt {lose2}!')
     await ctx.send(f'{ctx.author} used {round3}, dealt {lose3}!')
     await ctx.send(f'{player2} used {round4}, dealt {lose4}!')
+    if hplast1 =< 0 and hplast2 =< 0:
+        await ctx.send("both died")
+        return
     await ctx.send(f'{ctx.author}\'s hp: {hplast1}\n{player2}\'s hp: {hplast2}\n\n{winner} won!')
     print(f'[log] {ctx.author} requested ]duel with {player2}')
 # end of duel
