@@ -635,6 +635,10 @@ async def guess(ctx, num: int):
 # duel
 @bot.command()
 async def duel(ctx, player2: discord.User):
+    if ctx.author == player2:
+        await ctx.reply('Imagine fighting against yourself :eyes:', mention_author=False)
+        print(f'[log] {ctx.author} returned an error: Bad argument.')
+        raise InvalidArgument
 # var
     normal = [
             # normal atk
