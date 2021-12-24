@@ -93,5 +93,4 @@ https://github.com/notsniped/isobot-discord-bot-python
 ***MORE FEATURES WILL BE ADDED, LOOKING FORWARD TO IT!***
 
 *Hashtags:*
-
 *#isobot #iso6.9 #discord.py*
