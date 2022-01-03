@@ -793,14 +793,18 @@ async def cup(ctx):
         int(msg.content)
     except ValueError:
         await ctx.reply(f"wtf is {msg.content}")
-    if int(msg.content) not in range(3):
+        print(f'[log] {ctx.author} returned an error: Invaild argument.')
+    if int(msg.content) not in range(4):
         await ctx.reply(f"{msg.content} is not a valid number")
+        print(f'[log] {ctx.author} returned an error: Bad argument.')
         return
     elif int(msg.content) == ballincup:
         await ctx.reply("correc, gg")
+        print(f'[log] {ctx.author} requested ]cup.')
         return
     else:
         await ctx.reply("incorrec, oof")
+        print(f'[log] {ctx.author} requested ]cup.')
 
 @bot.command()
 async def lick(ctx, user: discord.User=None):
