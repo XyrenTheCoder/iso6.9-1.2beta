@@ -567,15 +567,22 @@ async def stroke(ctx, size: int):
 
 # maths cmds
 @bot.command(aliases=['+'])
-async def sum(ctx, num1: float, num2: float):
-    ans = str(num1 + num2)
-    await ctx.send(f'`{num1} + {num2}` = __{ans}__\n\n--end of calculation--')
+async def sum(ctx, *nums:float):
+    ans = 0.0
+    for num in nums:
+        ans += num
+    var = ' + '.join(nums)
+    await ctx.send(f'`{var}` = __{ans}__\n\n--end of calculation--')
     print(f'[log] {ctx.author} requested ]sum.')
 
 @bot.command(aliases=['-'])
-async def subtract(ctx, num1: float, num2:float):
-    ans = str(num1 - num2)
-    await ctx.send(f'`{num1} - {num2}` = __{ans}__\n\n--end of calculation--')
+async def subtract(ctx, *nums:float):
+    ans = nums[0]
+    del nums[0]
+    for num in nums:
+        ans -= num
+    var = ' - '.join(nums)
+    await ctx.send(f'`{nums}` = __{ans}__\n\n--end of calculation--')
     print(f'[log] {ctx.author} requested ]subtract.')
 
 @bot.command(aliases=['*'])
