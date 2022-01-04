@@ -13,6 +13,7 @@ from random import randint
 from discord.errors import InvalidArgument
 from discord.ext import commands
 from discord.ext.commands import *
+from keep_alive import keep_alive
 
 intents = discord.Intents(messages=True, members=True, guilds=True)
 
@@ -846,6 +847,7 @@ async def avatar(ctx, username: discord.User=None):
         print(f'[log] {ctx.author} requested ]avatar.')
         
 # start
+keep_alive()
 bot.run(token)
 
 
