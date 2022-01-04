@@ -72,7 +72,7 @@ To get your id, run `?userinfo` or `auserinfo` (slash commands also works) in an
 
 # Contacts
 Contact me:
-- Discord: αrchιshα#5518 (DM open)
+- Discord: check my bio (DM open)
 
 ***YOU ARE WELCOME TO DM ME IN DISCORD FOR ANY FURTHER INFORMATION, ALSO I WILL BE GLAD IF ANY ISSUE IS REPORTED, PULL REQUESTS ARE ACCEPTED!***
 
