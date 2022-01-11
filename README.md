@@ -7,7 +7,9 @@ Its prefix is `]`.
 
 Invite link: https://discord.com/oauth2/authorize?client_id=915488087554002956&permissions=8&scope=bot
 
-(it is normally run in replit)
+(it is normally running in replit)
+
+***THIS REPO WILL NOT BE UPDATED ANY MORE, PLEASE GO TO THE LATEST REPO (ISO6.9-2.6STABLE) FOR CURRENT UPDATES!***
 
 # Insert token and id before running the code. 
 To run it, put the bot token inside:
