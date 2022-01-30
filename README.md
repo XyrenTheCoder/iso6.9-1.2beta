@@ -5,7 +5,7 @@ iso6.9 is a Discord bot written in Python and is used to make your Discord exper
 
 Its prefix is `]`. 
 
-Invite link: https://discord.com/oauth2/authorize?client_id=915488087554002956&permissions=8&scope=bot
+[Invite link](https://discord.com/oauth2/authorize?client_id=915488087554002956&permissions=8&scope=bot)
 
 (it is normally running in replit)
 
